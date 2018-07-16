@@ -1,0 +1,138 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(0, 179, 255);
+}
+
+input {
+  width: 300px;
+  padding: 15px 20px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.40),  rgba(0,0,0,0));
+  border: none;
+}
+
+.navbar-link {
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-links {
+  padding: 15px 15px;
+  display: inline-block;
+  float: right;
+}
+
+.icon-small {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 150px;
+  color: #fff;
+}
+
+.link {
+  padding: 0px 10px;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border: solid 1px #fff;
+  font-size: 30px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.form-btn {
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+  color: #fff;
+}
+
+.form-btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(75, 228, 255);
+  border-color: rgb(75, 228, 255);
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(75, 228, 255);
+  border-color: rgb(75, 228, 255);
+}
+
+.password-reset-screen {
+  background: url('../images/reset_background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.password-recovery-screen {
+  background: url('../images/password_recovery.jpg') no-repeat;
+  background-size: cover;
+}
+
+.home-screen {
+  background: url('../images/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.profile-screen {
+  background: url('../images/profile_background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.login-screen {
+  background: url('../images/login_background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.signup-screen {
+  background: url('../images/signup_background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.not-found-screen {
+  background: url('../images/404.jpg') no-repeat;
+  background-size: cover;
+}

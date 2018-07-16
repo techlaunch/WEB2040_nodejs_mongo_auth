@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,500i,600,700,800,900,900i" rel="stylesheet">
+
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
+</head>
+
+<body class='signup-screen'>
+  <form action="/signup" method="post">
+    <div class='wrapper'>
+      <!-- show any messages that come back with authentication -->
+      <% if (message.length > 0) { %>
+      <div class="alert alert-danger">
+        <%= message %>
+      </div>
+      <% } %>
+
+      <input type="text" placeholder="Name" name="name" id="name" required/>
+      <input type="email" placeholder="Email" name="email" id="email" required/>
+      <input type="password" placeholder="Password" name="password" id="password" required/>
+      <input type="password" placeholder="Confirm Password" name="password_confirmation" id="password_confirmation" required/>
+      <button class="form-btn" type="submit"> Signup </button>
+      <div>
+        <a class="link" href="/">Home</a>
+        <a class="link" href="/login">Login</a>
+      </div>
+    </div>
+  </form>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
